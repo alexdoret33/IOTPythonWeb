@@ -26,10 +26,9 @@ def get_db () :
         g.db = connect_db()
     return g.db
 
-
 @app.route('/')
 def index () :
-    return 'Bienvenue'
+    return render_template('index.html')
 
 
 @app.route('/monitoring/')
