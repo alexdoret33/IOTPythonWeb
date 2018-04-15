@@ -1,6 +1,6 @@
 #! /usr/bin/python3.5
 # -*- coding:utf-8 -*-
-
+# Alexandre DORET
 from flask import Flask, render_template, url_for, request, g, redirect, session
 import mysql.connector
 from passlib.hash import argon2
